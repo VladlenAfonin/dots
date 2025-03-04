@@ -182,6 +182,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 require('lspconfig').zls.setup({})
 require('lspconfig').rust_analyzer.setup({})
 require('lspconfig').clangd.setup({})
+require('lspconfig').pyright.setup({})
 require('lspconfig').lua_ls.setup({
 on_init = function(client)
     if client.workspace_folders then
