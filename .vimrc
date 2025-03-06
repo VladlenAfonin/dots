@@ -4,7 +4,6 @@ if (empty($TMUX))
   endif
 endif
 
-colorscheme onedark
 syntax on
 
 filetype plugin indent on
