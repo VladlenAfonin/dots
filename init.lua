@@ -157,6 +157,7 @@ vim.keymap.set("", "<Leader>p", '"*p')
 
 -- Spelling.
 vim.opt.linebreak = true
+vim.g.spellfile_URL = "https://ftp.pl.vim.org/pub/vim/runtime/spell"
 vim.opt.spell = true
 vim.opt.spelllang = "ru_yo,en_us"
 vim.opt.keymap = "russian-jcukenmac"
