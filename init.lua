@@ -242,6 +242,17 @@ vim.api.nvim_create_autocmd("LspAttach", {
     end,
 })
 
+require("nvim-tree").setup({
+    renderer = {
+        icons = {
+            show = {
+                file = false,
+                folder = false,
+            },
+        },
+    },
+})
+
 require("lspconfig").zls.setup({
     settings = {
         zls = {
