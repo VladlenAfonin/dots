@@ -1,0 +1,11 @@
+[core]
+    editor = nvim
+
+[alias]
+    a = add
+    aa = add -A
+    st = status
+    l = log --oneline
+    ce = config --global --edit
+    cm = commit -m
+    st = status -s
